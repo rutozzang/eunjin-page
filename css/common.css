@@ -1,0 +1,80 @@
+@charset 'utf-8';
+
+@font-face {
+    font-family: 'ibmPlexSans';
+    src: url('../fonts/IBM_Plex_Sans_KR/IBMPlexSansKR-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibmPlexSans';
+    src: url('../fonts/IBM_Plex_Sans_KR/IBMPlexSansKR-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibmPlexSans';
+    src: url('../fonts/IBM_Plex_Sans_KR/IBMPlexSansKR-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibmPlexSans';
+    src: url('../fonts/IBM_Plex_Sans_KR/IBMPlexSansKR-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibmPlexSans';
+    src: url('../fonts/IBM_Plex_Sans_KR/IBMPlexSansKR-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibmPlexSans';
+    src: url('../fonts/IBM_Plex_Sans_KR/IBMPlexSansKR-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ibmPlexSans';
+    src: url('../fonts/IBM_Plex_Sans_KR/IBMPlexSansKR-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+* {
+    cursor: url('/imgs/cursor1.png'), auto;
+}
+body{
+    color:rgb(29,29,31);
+    letter-spacing: 1px;
+    background:#f1f1f5;
+    font-family: "ibmPlexSans", sans-serif;
+    font-weight: 400;
+}
+p{
+    line-height:1.6;
+}
+a{
+    color:#fff;
+    text-decoration:none;
+}
+[class^=icon-]{
+	display: inline-block;
+	overflow: hidden;
+	margin: 0;padding: 0;border: 0;
+	font-size: 0; line-height: 0;
+	text-decoration: none;
+	vertical-align: middle;
+	text-indent: -1000em;
+	outline: 0 !important;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: auto 100%;
+	width: 36px;
+	height: 36px;
+}
+.mt-0 {
+    margin-top: 0 !important;
+}
