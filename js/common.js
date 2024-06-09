@@ -81,7 +81,7 @@ $(document).ready(function() {
     updateClock();
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+window.onload = function(){
     const element = document.querySelector('.pf-project-item-wrapper');
     const bgElement = document.querySelector('.pj-bg');
     const groups = document.querySelectorAll('.group');
@@ -118,4 +118,4 @@ document.addEventListener("DOMContentLoaded", function() {
     groups.forEach(group => {
         group.style.opacity = '0';
     });
-});
+};
