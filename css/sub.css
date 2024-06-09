@@ -283,7 +283,14 @@
 .pj-item > div {
     padding: 10px;
     height: 100%;
-    background: #56569B;
+    background-color: #56569B;
+}
+.pj-item > div.div-hanchang {
+    border: 10px solid #56569B;
+    width: 850px;
+    background-size: cover;
+    background-image: url('/eunjin-page/imgs/hanchang.png');
+    border-radius: 15px;
 }
 .pj-item.pj7 > div {
     background: #fff;
