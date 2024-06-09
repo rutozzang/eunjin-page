@@ -177,18 +177,6 @@ header .vid {
     border-radius: 4vw;
     margin: 1px;
 }
-/* .cards::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: rgba(16 18 27 / 40%);
-    border-radius: 15px;
-    filter: blur(20px);
-    z-index: -1;
-} */
 .card {
     border-radius: 3.5vw;
     border: 1px solid rgba(255,255,255,.35);
@@ -219,7 +207,7 @@ header .vid {
     transform-origin: 50% 50%;
     transform: translateZ(-50px);
     z-index: 0;
-    background: url("/imgs/bg6.jpeg") center / cover no-repeat;
+    background: url("/eunjin-page/imgs/bg6.jpeg") center / cover no-repeat;
 }
 /* .card__bg {
     background: url("/imgs/bg8.jpeg") center / cover no-repeat;
@@ -347,7 +335,7 @@ header .vid {
     padding-bottom: 2.5vw;
 }
 .space-card-content-wrapper.map {
-    background-image: url(/imgs/my-map.png);
+    background-image: url('/eunjin-page/imgs/my-map.png');
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -433,7 +421,7 @@ header .vid {
     height: 100%;
 }
 .card-img-cnt > div{
-    background-image: url(/imgs/aboutmebg.png);
+    background-image: url('/eunjin-page/imgs/aboutmebg.png');
     width: 225px;
     flex: 1;
     background-position: 0 0;
@@ -443,7 +431,7 @@ header .vid {
     left: 38px;
 }
 .card-img-cnt.port > div{
-    background-image: url(/imgs/pj.png);
+    background-image: url('/eunjin-page/imgs/pj.png');
     width: 100%;
     flex: 1;
     background-position: 0 0;
@@ -490,20 +478,20 @@ header .vid {
 
 /* icon */
 .icon-menu {
-    background: url('/imgs/menu.svg');
+    background: url('/eunjin-page/imgs/menu.svg');
     background-size: cover;
     width: 18px;
     height: 25px;
     transition: opacity 0.3s ease-in-out;
 }
 .icon-user {
-    background: url('/imgs/user.svg');
+    background: url('/eunjin-page/imgs/user.svg');
 }
 .icon-folder {
-    background: url('/imgs/folder.svg');
+    background: url('/eunjin-page/imgs/folder.svg');
 }
 .icon-contact {
-    background: url('/imgs/contact.svg');
+    background: url('/eunjin-page/imgs/contact.svg');
 }
 
 /* mo */

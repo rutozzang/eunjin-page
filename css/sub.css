@@ -47,7 +47,7 @@
     font-size: 18px;
     line-height: 42px;
     /* border-bottom: 2px dashed rgba(156, 167, 194, .3); */
-    background-image: url('/imgs/line.svg');
+    background-image: url('/eunjin-page/imgs/line.svg');
     background-position: 0 0;
     background-size: auto 42px;
     padding-top: 2px;
@@ -120,34 +120,34 @@
     background-image: url('https://picsum.photos/600/600?random=0');
 }
 .pf-list-wrapper li:first-child .pf-image {
-    background-image: url('/imgs/pj1.png');
+    background-image: url('/eunjin-page/imgs/pj1.png');
     background-position: 50% 3%;
     background-size: 150% 150%;
 }
 .pf-list-wrapper li:nth-child(2) .pf-image {
-    background-image: url('/imgs/pj2.png');
+    background-image: url('/eunjin-page/imgs/pj2.png');
     background-size: 100% 100%;
 }
 .pf-list-wrapper li:nth-child(3) .pf-image {
-    background-image: url('/imgs/pj3.png');
+    background-image: url('/eunjin-page/imgs/pj3.png');
     background-size: 150%;
 }
 .pf-list-wrapper li:nth-child(4) .pf-image {
-    background-image: url('/imgs/pj4.png');
+    background-image: url('/eunjin-page/imgs/pj4.png');
     background-size: 130%;
     background-position:50% -5px;
 }
 .pf-list-wrapper li:nth-child(5) .pf-image {
-    background-image: url('/imgs/pj5.png');
+    background-image: url('/eunjin-page/imgs/pj5.png');
     background-size: 150%;
 }
 .pf-list-wrapper li:nth-child(6) .pf-image {
-    background-image: url('/imgs/pj6.png');
+    background-image: url('/eunjin-page/imgs/pj6.png');
     background-size: 150%;
     background-position:100%;
 }
 .pf-list-wrapper li:nth-child(7) .pf-image {
-    background-image: url('/imgs/boklogo.png');
+    background-image: url('/eunjin-page/imgs/boklogo.png');
     background-size: 70%;
     background-position:50% 50%;
     background-color: #fff;
@@ -345,24 +345,24 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/imgs/box-bg-1.jpg);
+    background-image: url('/eunjin-page/imgs/box-bg-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 .pf-box-wrapper.pf-box-2 {
-    background-image: url(/imgs/box-bg-2.jpg);
+    background-image: url('/eunjin-page/imgs/box-bg-2.jpg');
 }
 .pf-box-wrapper.pf-box-3 {
-    background-image: url(/imgs/box-bg-3.jpg);
+    background-image: url('/eunjin-page/imgs/box-bg-3.jpg');
 }
 .pf-box-wrapper.pf-box-4 {
-    background-image: url(/imgs/box-bg-4.jpg);
+    background-image: url('/eunjin-page/imgs/box-bg-4.jpg');
 }
 .pf-box-wrapper.pf-box-5 {
-    background-image: url(/imgs/box-bg-5.jpg);
+    background-image: url('/eunjin-page/imgs/box-bg-5.jpg');
 }
 .pf-box-wrapper.pf-box-6 {
-    background-image: url(/imgs/box-bg-6.jpg);
+    background-image: url('/eunjin-page/imgs/box-bg-6.jpg');
 }
 .pf-footer-nav-wrapper {
     display: flex;
@@ -400,36 +400,36 @@
     background-repeat: no-repeat;
 }
 .pf-footer-nav-image.bok {
-    background-image: url('/imgs/boklogo.png');
+    background-image: url('/eunjin-page/imgs/boklogo.png');
     background-size: 70%;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-color: #fff;
 }
 .pf-footer-nav-image.isu {
-    background-image: url('/imgs/pj2.png');
+    background-image: url('/eunjin-page/imgs/pj2.png');
     background-size: 100% 100%;
 }
 .pf-footer-nav-image.hanchang {
-    background-image: url('/imgs/pj1.png');
+    background-image: url('/eunjin-page/imgs/pj1.png');
     background-position: 50% 3%;
     background-size: 150% 150%;
 }
 .pf-footer-nav-image.kita {
-    background-image: url('/imgs/pj3.png');
+    background-image: url('/eunjin-page/imgs/pj3.png');
     background-size: 150%;
 }
 .pf-footer-nav-image.amore {
-    background-image: url('/imgs/pj4.png');
+    background-image: url('/eunjin-page/imgs/pj4.png');
     background-size: 130%;
     background-position: 50% -5px;
 }
 .pf-footer-nav-image.tricycle {
-    background-image: url('/imgs/pj5.png');
+    background-image: url('/eunjin-page/imgs/pj5.png');
     background-size: 150%;
 }
 .pf-footer-nav-image.cns {
-    background-image: url('/imgs/pj6.png');
+    background-image: url('/eunjin-page/imgs/pj6.png');
     background-size: 150%;
     background-position: 100%;
 }
