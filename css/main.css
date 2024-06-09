@@ -523,7 +523,7 @@ header .vid {
     }
     .cards {
         min-width: 100%;
-        max-height: calc(100vh - 200px);
+        max-height: calc(100% - 200px);
         transform: rotateX(-7deg) rotateY(15deg);
         padding: 30px 40px 40px 30px;
         border-radius: 39px;
@@ -543,7 +543,7 @@ header .vid {
     .text {
         margin: 20px 0 0;
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
         transform: translateZ(45px);
     }
     .myself h1 {
