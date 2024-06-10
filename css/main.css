@@ -253,6 +253,7 @@ header .vid {
 .space-bg{
     position: absolute;
     width:100%;
+    z-index: -1;
 }
 
 /* main body */
