@@ -253,7 +253,6 @@ header .vid {
 .space-bg{
     position: absolute;
     width:100%;
-    z-index: -1;
 }
 
 /* main body */
@@ -532,6 +531,8 @@ header .vid {
         font-size: 20px;
         margin: 20px 0 10px;
         text-align: center;
+        transform: unset;
+        width: 100%;
     }
     .myself h1 {
         transform: translateZ(45px);

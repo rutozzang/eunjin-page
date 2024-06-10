@@ -8,6 +8,20 @@ $(function(){
         }
     );
 
+    // Touch events for mobile
+    $('header').on('touchstart', function(){
+        $(this).addClass('active');
+    });
+
+    $('header').on('touchend', function(){
+        $(this).removeClass('active');
+    });
+
+    // Prevent touch events from triggering mouse events
+    $('header').on('touchmove', function(event) {
+        event.preventDefault();
+    });
+
     $('.vid').hover(
         function() {
             $(this)[0].play();
