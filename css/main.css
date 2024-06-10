@@ -166,6 +166,9 @@ header .vid {
     background: linear-gradient(#fff,#9b8da3);
     position: relative;
 }
+.cards + .text {
+    display: none;
+}
 .cards::after {
     content: '';
     position: absolute;
@@ -522,29 +525,10 @@ header .vid {
         height: 105px;
     }
     .cards {
-        min-width: 100%;
-        max-height: calc(100% - 200px);
-        transform: rotateX(-7deg) rotateY(15deg);
-        padding: 30px 40px 40px 30px;
-        border-radius: 39px;
+        display: none;
     }
-    .cards::after {
-        border-radius: 39px;
-    }
-    .card {
-        width: 100%;
-        transform: translateZ(45px);
-        border-radius: 39px;
-    }
-    .card__img {
-        right: 0;
-        height: auto;
-    }
-    .text {
-        margin: 20px 0 0;
-        width: 100%;
-        font-size: 18px;
-        transform: translateZ(45px);
+    .cards + .text {
+        display: block;
     }
     .myself h1 {
         transform: translateZ(45px);
