@@ -529,6 +529,9 @@ header .vid {
     }
     .cards + .text {
         display: block;
+        font-size: 20px;
+        margin: 20px 0 10px;
+        text-align: center;
     }
     .myself h1 {
         transform: translateZ(45px);
