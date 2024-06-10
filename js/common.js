@@ -8,16 +8,20 @@ $(function(){
         }
     );
 
-    // Touch events for mobile
-    $('header').on('touchstart', function(){
+    // 헤더를 터치했을 때 active 클래스를 추가
+    $('header').on('touchstart', function() {
         $(this).addClass('active');
     });
 
-    $('header').on('touchend', function(){
-        $(this).removeClass('active');
+    // 문서 전체에 클릭 이벤트 추가
+    $(document).on('click touchstart', function(event) {
+        // 이벤트가 발생한 요소가 헤더 내부인지 확인
+        if (!$(event.target).closest('header').length) {
+            $('header').removeClass('active');
+        }
     });
 
-    // Prevent touch events from triggering mouse events
+    // 터치 이동을 방지하여 의도치 않은 동작을 막음
     $('header').on('touchmove', function(event) {
         event.preventDefault();
     });
